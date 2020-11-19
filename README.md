@@ -79,7 +79,7 @@ We first install the binary package with:
 
 ```puppet
   class { 'kafka':
-    version => '1.1.0',
+    kafka_version => '1.1.0',
     scala_version => '2.12'
   }
 ```
